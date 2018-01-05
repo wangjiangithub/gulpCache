@@ -13,4 +13,4 @@
 		//Using this cache way need to set static resource cache never expired by server
 	}
 
-###改编自 https://github.com/zimv/gulpStart
+### 改编自 https://github.com/zimv/gulpStart
