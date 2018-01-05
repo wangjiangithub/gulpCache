@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>gulp start</title>
+<html lang="zh-CN">
 
-	<link rel="stylesheet" href="build/css/main-48c4de8ddd.css">
-	<script src="build/js/b-a02fb68552.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>索引页</title>
+
+	<style type="text/css">
+		body{
+		    background-color: #fff;
+		}
+		.demo-h1 {
+		    font-size: 24px;
+		    text-align: center;
+		    padding: 10px 15px 20px;
+		    border-bottom: 1px solid #dedede;
+		}
+		
+		.segment {
+		    background: #0680cf;
+		    color: white;
+		}
+		
+		.list-group>a {
+		    display: flex;
+		}
+		
+		a span:nth-of-type(1) {
+		    flex: 1;
+		}
+		
+		a span:nth-of-type(2) {
+		    width: auto;
+		}
+		</style>
+	</style>
 </head>
 <body>
-	Hello Gulp！
+	<div class="container">
+	    <div class="content">
+	        <h1 class="demo-h1">项目索引</h1>
+	        <div class="list-group list-group-full">
+	            <div class="segment">一期页面</div>
+	            <a href="build/html/list.html"><span>list</span></a>
+	            <a href="build/html/item.html"><span>item</span></a>
+	            
+	            
+	            <!-- <div class="segment">其他</div>
+	            <a href="build/html/loading.html"> <span>loading</span></a>
+	            <a href="build/html/icons.html"> <span>图标</span></a> -->
+	        </div>
+	    </div>
+	</div>
 </body>
 </html>

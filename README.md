@@ -1,4 +1,4 @@
-## need to exec : npm install -g gulp
+## 项目部署缓存解决方案
 
 ## 分支的搭建顺序(Branches set up order):
 	* less

@@ -21,12 +21,17 @@ module.exports = {
 		dest: dest + "/js",
 		rev: dest + "/rev/js"
 	},
+	html: {
+		src: src + "/html/*.html",
+		dest: dest +"/html",
+		// rev: dest + "/rev/html"
+	},
 	clean:{
 		src: dest
 	},
 	rev:{//use rev to reset html resource url
 		revJson: dest + "/rev/**/*.json",
-		src: "*.html",//root index.html
-		dest: ""
+		src: src + "/html/*.html",//root index.html
+		dest: dest +"/html"
 	}
 }

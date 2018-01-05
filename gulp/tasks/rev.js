@@ -8,6 +8,7 @@ var revCollector = require("gulp-rev-collector");
 	使html静态资源的文件名路径能够和当前加上md5后缀的文件匹配
 */
 gulp.task('rev', function () {
+    // return gulp.src([config.revJson, config.src, config.dest])
     return gulp.src([config.revJson, config.src])
         .pipe( revCollector({
             replaceReved: true,
