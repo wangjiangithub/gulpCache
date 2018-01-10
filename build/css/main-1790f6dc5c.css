@@ -1,0 +1,15 @@
+.list-view {
+  color: green;
+  font-size: 30px;
+  background-color: yellow;
+}
+.item-view {
+  color: red;
+  font-size: 20px;
+  background-color: black;
+}
+.item-view span {
+  font-size: 30px;
+  background-color: #f0f0f0;
+  border: 3px solid #ff0;
+}
